@@ -12,7 +12,7 @@ const Chatbot = ({ conversation, currentStep, onUserResponse, chat, cart }) => {
         ))}
       </div>
       <div className="OptionsBox" style={{ backgroundColor: "white" }}>
-        {cart.length < 1 && currentStep < conversation.length && (
+        {cart.length < 1 && currentStep  && (
           <Options
             options={conversation[currentStep]}
             onUserResponse={onUserResponse}

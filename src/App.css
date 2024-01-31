@@ -11,7 +11,17 @@
 }
 
 
-
+.InputBox{
+  background-color: white;
+  min-height: 250px;
+  width:40%;
+  margin-left: 10%;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .Question {
   background-color: #F7EFE5;
   padding: 10px;
