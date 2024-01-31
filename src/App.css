@@ -1,0 +1,86 @@
+/* src/App.css */
+*{
+  background-color: #F7EFE5;
+}
+
+.App {
+  text-align: center;
+  margin: 20px;
+  /* height: 100vh; */
+  /* background-color: white; */
+}
+
+
+
+.Question {
+  background-color: #F7EFE5;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  width: 30%;
+  color:black;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.Answer {
+  background-color: #7743DB;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  width: 70%;
+  color:#FBF9F1;
+}
+
+.Options{
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  width: 30%;
+  margin: 5px;
+}
+
+.OptionsBox{
+  display: flex;
+  justify-content: end;
+  margin: 10px;
+}
+
+.Options button {
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: white;
+}
+
+.chatBox{
+  margin-top: 50px;
+  border:2px solid #363062;
+  border-radius: 10px;
+  background-color: white;
+  min-height: 50vh;
+  width: 45%;
+  padding:10px;
+}
+.cart{
+  margin-top: 50px;
+  border:2px solid #49108B;
+  border-radius: 10px;
+  background-color: white;
+  min-height: 50vh;
+  width: 35%;
+  padding:10px;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.card{
+  width: fit-content;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 20px;
+}
